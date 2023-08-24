@@ -83,6 +83,14 @@ body {
 
 /* Aca van los contenidos del main */
 
+.contentDes {
+    color: var(--primary-color);
+}
+
+.subtitleCont {
+    color: var(--primary-color);
+}
+
 
 .presentation {
     display: flex;
@@ -147,8 +155,7 @@ body {
 
 .imagenCo {
     box-shadow: 0 0 0 #000;
-    width: 20pc;
-    height: 20pc;
+    height: 25pc;
 }
 
 .imagenCo img {
@@ -174,7 +181,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
-    margin-left: 4pc;
+    margin-left: 9pc;
 
 }
 
@@ -185,12 +192,15 @@ body {
 .number {
     font-size: 8pc;
     position: absolute;
-    top: 32pc;
-    left: 2pc;
     z-index: -1;
+    color: #777;
+    opacity: .5;
 }
 
-
+.numberPc {
+    top: 37pc;
+    left: 6pc;
+}
 
 .explanation h2 {
     font-size: 44px;
@@ -217,6 +227,28 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
+
+
+}
+
+.macBox {
+    margin-right: 2pc;
+}
+
+
+
+.bulbSide {
+    margin-left: 8pc;
+}
+
+.numberLumina {
+    top: 60pc;
+    right: 9pc;
+}
+
+.DescrBul {
+    margin: 3pc 6pc 0 2pc;
+
 }
 
 .containerBtn {
@@ -274,6 +306,8 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
+    margin-left: 12pc;
+
 }
 
 .box {
@@ -287,19 +321,33 @@ body {
     justify-content: center;
     align-items: center;
     width: 50%;
+    margin-right: 4pc;
+
+}
+
+.containerButton {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2pc;
 }
 
 .boxButtons button {
     cursor: pointer;
-    background: linear-gradient(to right, #FE2EEF, #3F75FF);
-    border-radius: 30px;
+    border-radius: 10px;
     border: none;
     font-size: 20px;
     font-weight: 700;
     width: 6pc;
     height: 3pc;
-    margin-right: 2pc;
+    margin-left: 2pc;
+    margin-bottom: 2pc;
 }
+
+.numberChroma {
+    top: 86pc;
+    left: 30pc;
+}
+
 
 /* Final estilos del cuadro */
 
@@ -307,6 +355,62 @@ body {
 /* Final de los estilos del main */
 
 /* Aca van los contenidos del footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10pc;
+    height: 40vh;
+}
+
+.footerTitle {
+    margin-bottom: 2pc;
+}
+
+.imageContainerF {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.imageContainerF img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.socials {
+    display: flex;
+    margin-bottom: 2pc;
+    list-style: none;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.titleFooter {
+    font-size: 4pc;
+    color: var(--primary-color);
+}
+
+.md {
+    color: var(--primary-color);
+    font-size: 2pc;
+    margin-right: 20px;
+}
+
+.md:hover {
+    color: #FE2EEF;
+    transition: all ease-in-out 0.5s;
+}
+
+.copyrightP {
+    color: var(--primary-color);
+}
+
 /* Final de los estilos del footer */
 
 @media (max-width: 600px) {

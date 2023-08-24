@@ -67,16 +67,17 @@
 
         <section class="containerDescriptionPC">
             <div class="description">
-                <div class="number">01</div>
+                <div class="number numberPc">01</div>
                 <div class="explanation">
-                    <h2>Rapid Control</h2>
-                    <p>Empower your screen with RapidControl for Mac. The button, positioned right next to your Mac's
+                    <h2 class="subtitleCont">Rapid Control</h2>
+                    <p class="contentDes">Empower your screen with RapidControl for Mac. The button, positioned right
+                        next to your Mac's
                         image,
                         brings your screen to life with a simple press, putting you in command without delay.</p>
                 </div>
             </div>
 
-            <div class="botones">
+            <div class="botones macBox">
                 <div class="pcContainer">
                     <img id="pcMac" src="/img/pcOff.png" alt="pc apagada">
                 </div>
@@ -90,7 +91,7 @@
 
         <section class="containerBulb">
 
-            <div class="botones">
+            <div class="botones bulbSide">
                 <div class="containerBtn">
                     <img id="btnBul" src="/img/on2.png" alt="boton encendido">
                 </div>
@@ -99,8 +100,14 @@
                 </div>
             </div>
 
-            <div class="imgPc">
-
+            <div class="DescrBul">
+                <div class="number numberLumina">02</div>
+                <div class="explanation">
+                    <h2 class="subtitleCont">LuminaShift</h2>
+                    <p class="contentDes">Enter LuminaShift. Picture a button beside your bulb image. With a simple
+                        press, experience
+                        effortless bulb change, transforming your illumination instantly.</p>
+                </div>
             </div>
 
 
@@ -108,13 +115,22 @@
 
         <section class="containerBox">
             <div class="boxContainer">
-
+                <div class="number numberChroma">03</div>
+                <div class="explanation">
+                    <h2 class="subtitleCont">ChromaTrio</h2>
+                    <p class="contentDes">Enter ChromaTrio: envision three buttons alongside blue, yellow, and red color
+                        boxes. Press for
+                        instant color transformation. Effortlessly switch between hues.</p>
+                </div>
             </div>
             <div class="boxButtons">
                 <div class="box"></div>
-                <button id="blue">Blue</button>
-                <button id="red">Red</button>
-                <button id="yellow">Yellow</button>
+                <div class="containerButton">
+                    <button id="blue">Blue</button>
+                    <button id="red">Red</button>
+                    <button id="yellow">Yellow</button>
+                </div>
+
             </div>
 
         </section>
@@ -122,7 +138,37 @@
 
 
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="footerTitle">
+            <div class="imageContainerF">
+                <img src="/img/light-bulb.png" alt="">
+                <h1 class="titleFooter">WebSwitch</h1>
+            </div>
+        </div>
+
+
+        <div class="socialMedia">
+            <ul class="socials">
+                <a href="https://github.com/RicardoOliveros" target="_blank">
+                    <li><i class='bx bxl-github md'></i></li>
+                </a>
+                <a href="https://www.linkedin.com/in/ricardo-oliveros-a689891b6/" target="_blank">
+                    <li><i class='bx bxl-linkedin md'></i></li>
+                </a>
+
+                <a href="mailto:rica.oli0811@gmail.com">
+                    <li><i class='bx bxl-gmail md'></i></li>
+                </a>
+                <a href="https://www.instagram.com/ricardo_oliveros_z/" target="_blank">
+                    <li><i class='bx bxl-instagram md'></i></li>
+                </a>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p class="copyrightP">© 2023 WebSwitch Control. All rights reserved.</p>
+        </div>
+
+    </footer>
     <script src="/js/02-script.js"></script>
 </body>
 
