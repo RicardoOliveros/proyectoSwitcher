@@ -27,34 +27,34 @@ btn.addEventListener('click', () => {
     if (mode) {
         btn.innerHTML = "<i class='bx bxs-sun'></i>Mode";
         btn.style.color = 'yellow';
-        imagen.src = '/img/Switches-bro.svg';
+        imagen.src = 'img/Switches-bro.svg';
     } else {
         btn.innerHTML = "<i class='bx bxs-moon'></i></i>Mode";
         btn.style.color = 'black';
-        imagen.src = '/img/Switches-broMo.svg';
+        imagen.src = 'img/Switches-broMo.svg';
     }
     mode = !mode
 })
 
 btnPc.addEventListener('click', () => {
     if (btnModePc) {
-        btnPc.src = '/img/off2.png';
-        pc.src = '/img/pcOn.png';
+        btnPc.src = 'img/off2.png';
+        pc.src = 'img/pcOn.png';
 
     } else {
-        btnPc.src = '/img/on2.png';
-        pc.src = '/img/pcOff.png';
+        btnPc.src = 'img/on2.png';
+        pc.src = 'img/pcOff.png';
     }
     btnModePc = !btnModePc
 })
 
 btnBulb.addEventListener('click', () => {
     if (btnModeBulb) {
-        bulb.src = '/img/bulbOn.png';
-        btnBulb.src = '/img/off2.png';
+        bulb.src = 'img/bulbOn.png';
+        btnBulb.src = 'img/off2.png';
     } else {
-        bulb.src = '/img/bulbOff.png';
-        btnBulb.src = '/img/on2.png';
+        bulb.src = 'img/bulbOff.png';
+        btnBulb.src = 'img/on2.png';
     }
     btnModeBulb = !btnModeBulb
 })
